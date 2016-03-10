@@ -1,0 +1,161 @@
+body {
+	background-color: #eeeeee;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding-bottom: 100px;
+}
+
+nav {
+	background-color: #ffffff;
+	border-top-color: #ff4700;
+	border-top-width: 6px;
+	border-top-style: solid;
+}
+
+nav li	{
+	list-style: none;
+	display:inline;
+	margin-left: 20px;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #ff4700; /* orange links */
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	vertical-align: middle;
+	margin-right: 550px;
+}
+
+#buy-now {
+	color: white;
+	padding: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,ff4700+0,d63900+100 */
+background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(top,  #87e0fd 0%, #ff4700 0%, #d63900 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #87e0fd 0%,#ff4700 0%,#d63900 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #87e0fd 0%,#ff4700 0%,#d63900 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#d63900',GradientType=0 ); /* IE6-9 */
+
+}
+
+#buy-now:hover {
+	text-decoration: none;
+
+}
+
+nav ul {
+	padding-left: 0;
+	/*background-color: blue;*/
+	width: 1050px ;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+main {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+article header ul {
+	padding-left: 0;
+	list-style: none;
+	font-size: 12px;
+}
+
+article header li {
+	display: inline;
+	margin-right: 10px;
+	
+}
+
+article {
+	background-color: white;
+	width: 700px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	/* X axis, Y axis, blur, size, colour*/
+	box-shadow: 0 2px 1px 2px rgba(0, 0, 0,.2);
+	border-radius: 5px;
+}
+
+article header img {
+	max-width: 100%;
+}
+
+.article-content {
+	padding: 0 30px;
+}
+
+article h1{
+	font-family: 'Crete Round', serif;
+	font-size: xx-large;
+	font-weight: normal;
+}
+
+article h1 a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#pinned h1 a:hover {
+	color: #777777;
+}
+
+article h1 a:hover {
+	color: #f977f0;
+}
+
+article p {
+	color: #737173;
+	font-size: large;
+	font-weight: lighter;
+}
+
+.breakout {
+	font-weight: bold;
+	color : #626062 ;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0;
+
+}
+
+article footer {
+	padding: 15px 30px ;
+	border-top: 1px solid #dddddd;
+	font-family: 'Crete Round', serif;
+	font-weight: normal;
+	color: #333333;
+	background-color: #fcfcfc;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
